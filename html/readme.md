@@ -1,0 +1,2 @@
+# ESTA PÁGINA ES MI PRIMER DESARROLLO AVANZADO
+Diseñé esta página web sobre noticias de entretenimiento y espectaculo para subir las redacciones que estoy haciendo. De esta manera poder mostrarle al mundo mi experiencia como periodista y programadora web.

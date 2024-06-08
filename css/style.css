@@ -1,228 +1,43 @@
-* {
-    margin: 5px;
-    padding: 0;
- 
-    font-family: "Merriweather Sans", sans-serif !important;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-    }
-    
 header {
-    display: flex !important;
-    justify-content: space-around !important;
-    border-bottom: 1px solid gray !important;
-    align-items: center;
-   
+  display: flex !important;
+  justify-content: space-around !important;
+  border-bottom: 1px solid gray !important;
+  align-items: center;
 }
-
-nav ul li a:hover{
-text-decoration: underline;
-margin: 10px;
-}
-
-.titulares:hover {
-text-decoration: underline;
-}
-
-footer ul li a:hover{
-    text-decoration: underline;
-}
-
-.tituloscarrusel:hover {
-    text-decoration: underline;
-}
-
-
 header nav ul {
-    list-style-type: none;
-    display: flex;
+  list-style-type: none;
+  display: flex;
+  display: none;
 }
-
 header nav ul li {
-    margin: 5px;
-
+  margin: 5px;
+}
+header nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+header nav ul li a:hover {
+  text-decoration: underline;
+  margin: 10px;
 }
 
-header nav ul li a{
-    font-weight: bold;
+.carousel .carousel-inner {
+  background-color: #000000 !important;
+  align-content: center !important;
+  justify-content: center !important;
+  padding: 50px !important;
 }
 
-
-
-.carrusel {
-    padding: 750px !important;
+* {
+  margin: 5px;
+  padding: 0;
+  font-family: "Merriweather Sans", sans-serif !important;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
-.carousel-inner{
-background-color: #000000 !important;
-align-content: center !important;
-justify-content: center !important;
-padding: 50px !important;
-}
-
-.carousel-slide {
-    align-content: center !important;
-justify-content: center !important;
-}
-
-
- .carousel-item {
-    align-content: center !important;
- }
-
-.d-block {
-    justify-content: center !important; 
-}
-
-
-h5 {
-    font-weight: 800 !important;
-    color: #ffffff !important;
-    font-size: 30px;
-    text-shadow: -1px -1px 0 #000;
-    overflow: auto !important;
-}
-
-
-h1 {
-    font-size: 29px;
-    color: white;
-    background-color: #4e4e4e;
-    padding-left: 30px;
-}
-
-h2 {
-    font-size: 20px;
-    text-align: center;
-}
-
-a {
-    color: black;
-    text-decoration: none;
-}
-
-
-.enlace-azul {
-    color: blue;
-}
-
-h2 {
-    color: azure;
-
-   
-}
-
-header nav ul{
-    display: none !important;
-}
-
-@media only screen and (min-width: 768px) {
-    header nav {
-        display:block !important; 
-    }
-    header nav ul {
-        list-style-type: none !important;
-        display: flex !important;
-    }
-    header nav ul li {
-        margin: 5px !important;
-    }
-
-
-   .offcanvas ul li {
-display: block !important;
-   }
-
-
-}
-
 
 body {
-    font-size: 17px;
+  font-size: 17px;
 }
 
-
-@media only screen and (max-width: 650px) {
-    body {
-        font-size: 12px;
-    }
-
-.
-.rounded {
-        width: 100%;
-        height: auto;
-    }
-
- h5 {
-    font-size: 1.5em !important;
-    overflow: auto !important;
-}
-
-.carousel-inner {
-        padding: 9px;
-        margin: 0 auto;
-    }
-
-
-    .menu {
-        font-size: 13px;
-    }
-}
-
-.img-container {
-    display:flex;
-    flex-flow: wrap;
-    justify-content: center;
-    margin-top: 100px;
-    align-items: center;
-    text-align: center;
-
-}
-
-.img-container3 {
-    display:flex;
-    flex-flow: wrap;
-    justify-content: center;
-    margin-top: 100px;
-    align-items: center;
-    text-align: center;
-}
-
-
-.img-container img {
-    max-width: 400px;
-    padding: 1rem;
-    display:block
-    margin: 0 auto;
-}
-
-.img-container p {
-    width: 100;
-    text-align: center;
-}
-
-.img-container3 img {
-    padding: 1rem;
-    display:block
-    margin: 0 auto;
-}
-
-.img-container p {
-    width: 100;
-    text-align: center;
-}
-
-.titulares {
-    justify-content: center;
-}
-
-footer {
-    background-color: #000;
-    position: absolute;
-    width: 100%;
-    margin-top: 300px;
-}
-
-.footerenlaces .footer-item {
-    color: #ffffff;
-}
+/*# sourceMappingURL=style.css.map */
