@@ -1,5 +1,42 @@
 @media only screen and (max-width: 650px) {
-    body {
-        font-size: 12px;
+    header {
+        display: flex !important;
+        margin-left: 10px !important;
+        nav {
+            ul {
+                li {
+                    a{
+
+                    }
+                }
+            }
+        }
     }
 }
+    body {
+        font-size: 12px;
+        .parrafo-inicio {
+          display: flex;
+            white-space: nowrap;
+    }
+    .carousel {
+        position: relative;
+        width: 100%;
+        margin:auto;
+        overflow: hidden;
+        .carousel-inner {
+            display: flex;
+            transition: transform 0.5s ease;
+          }
+          .carousel-item {
+            min-width: 100%;
+            box-sizing: border-box;
+         
+            img {
+                    width: 100%;
+                    display: block;
+                    align-items: center;
+                  }
+            }
+          }
+    }

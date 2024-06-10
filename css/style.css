@@ -143,9 +143,36 @@ h1 {
   }
 }
 @media only screen and (max-width: 650px) {
-  body {
-    font-size: 12px;
+  header {
+    display: flex !important;
+    margin-left: 10px !important;
   }
+}
+body {
+  font-size: 12px;
+}
+body .parrafo-inicio {
+  display: flex;
+  white-space: nowrap;
+}
+body .carousel {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+body .carousel .carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+body .carousel .carousel-item {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+body .carousel .carousel-item img {
+  width: 100%;
+  display: block;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
