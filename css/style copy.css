@@ -15,26 +15,6 @@ footer ul li a:hover{
 
 
 
-.carrusel {
-    padding: 750px !important;
-}
-.carousel-inner{
-background-color: #000000 !important;
-align-content: center !important;
-justify-content: center !important;
-padding: 50px !important;
-}
-
-.carousel-slide {
-    align-content: center !important;
-justify-content: center !important;
-}
-
-
- .carousel-item {
-    align-content: center !important;
- }
-
 .d-block {
     justify-content: center !important; 
 }
@@ -102,9 +82,7 @@ display: block !important;
 }
 
 
-body {
-    font-size: 17px;
-}
+
 
 
 @media only screen and (max-width: 650px) {
@@ -181,13 +159,3 @@ body {
     justify-content: center;
 }
 
-footer {
-    background-color: #000;
-    position: absolute;
-    width: 100%;
-    margin-top: 300px;
-}
-
-.footerenlaces .footer-item {
-    color: #ffffff;
-}

@@ -1,0 +1,62 @@
+h1 {
+    font-size: 30px;
+    color: white;
+    background-color: #4e4e4e;
+    text-align: center;
+}
+
+
+.parrafo-inicio {
+    color: black;
+    margin-top: 10px;
+    font-size: 20px;
+    display: inline-block;
+    padding-left: 30px;
+    transform:translateX(100px);
+    animation-name: barrido;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 15s;
+    animation-delay: 1s;
+}
+
+.img-container {
+    display:flex;
+    flex-flow: wrap;
+    justify-content: center;
+    margin-top: 100px;
+    align-items: center;
+    text-align: center;
+
+    img {
+        max-width: 400px;
+        padding: 1rem;
+        display: block;
+        margin: 0 auto;
+        box-shadow: 11px 6px 39px 8px rgba(0,0,0,0.11);
+        -webkit-box-shadow: 11px 6px 39px 8px rgba(0,0,0,0.11);
+        -moz-box-shadow: 11px 6px 39px 8px rgba(0,0,0,0.11);
+        
+    }
+
+    .titulares {
+        justify-content: center;
+        &:hover {
+            text-decoration: underline;
+    }
+}
+ .img-container3 {
+    @extend .img-container; 
+ }
+}
+
+
+
+@keyframes barrido {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+    transform: translateX(-100%);
+    }
+    }

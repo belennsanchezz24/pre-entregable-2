@@ -1,10 +1,33 @@
 .carousel {
-    
+    padding: 50px !important;
+    margin: 30px !important;
+    align-content: center !important;
+    justify-content: center !important;
 
 .carousel-inner {
 background-color: #000000 !important;
 align-content: center !important;
 justify-content: center !important;
 padding: 50px !important;
+
+ .tituloscarrusel {
+    background-color: #000000;
+    &:hover {
+    text-decoration: underline !important;
+    }
+    .carousel-item {
+        align-content: center !important;
+        h5 {
+            font-weight: 800 !important;
+            color: #ffffff !important;
+            font-size: 30px;
+            text-shadow: -1px -1px 0 #000 !important;
+            overflow: auto !important;
+                &:hover {
+             text-decoration: underline !important;
+        }
+    }
+}
+}
 }
 }

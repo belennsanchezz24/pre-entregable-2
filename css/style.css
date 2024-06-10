@@ -15,29 +15,137 @@ header nav ul li {
 header nav ul li a {
   color: black;
   text-decoration: none;
+  font-weight: bold;
 }
 header nav ul li a:hover {
   text-decoration: underline;
   margin: 10px;
 }
 
+.carousel {
+  padding: 50px !important;
+  margin: 30px !important;
+  align-content: center !important;
+  justify-content: center !important;
+}
 .carousel .carousel-inner {
   background-color: #000000 !important;
   align-content: center !important;
   justify-content: center !important;
   padding: 50px !important;
 }
-
-* {
-  margin: 5px;
-  padding: 0;
-  font-family: "Merriweather Sans", sans-serif !important;
-  font-optical-sizing: auto;
-  font-style: normal;
+.carousel .carousel-inner .tituloscarrusel {
+  background-color: #000000;
+}
+.carousel .carousel-inner .tituloscarrusel:hover {
+  text-decoration: underline !important;
+}
+.carousel .carousel-inner .tituloscarrusel .carousel-item {
+  align-content: center !important;
+}
+.carousel .carousel-inner .tituloscarrusel .carousel-item h5 {
+  font-weight: 800 !important;
+  color: #ffffff !important;
+  font-size: 30px;
+  text-shadow: -1px -1px 0 #000 !important;
+  overflow: auto !important;
+}
+.carousel .carousel-inner .tituloscarrusel .carousel-item h5:hover {
+  text-decoration: underline !important;
 }
 
-body {
-  font-size: 17px;
+footer {
+  background-color: #000;
+  position: absolute;
+  width: 100%;
+  margin-top: 300px;
+}
+footer h2 {
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+footer .footerenlaces {
+  color: #ffffff;
+}
+footer .footer-item {
+  color: #ffffff;
+  left: 10px;
+  text-decoration: none;
+}
+footer .footer-item:hover {
+  text-decoration: underline;
+  margin: 10px;
+}
+
+h1 {
+  font-size: 30px;
+  color: white;
+  background-color: #4e4e4e;
+  text-align: center;
+}
+
+.parrafo-inicio {
+  color: black;
+  margin-top: 10px;
+  font-size: 20px;
+  display: inline-block;
+  padding-left: 30px;
+  transform: translateX(100px);
+  animation-name: barrido;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 15s;
+  animation-delay: 1s;
+}
+
+.img-container, .img-container .img-container3 {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  margin-top: 100px;
+  align-items: center;
+  text-align: center;
+}
+.img-container img, .img-container .img-container3 img {
+  max-width: 400px;
+  padding: 1rem;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 11px 6px 39px 8px rgba(0, 0, 0, 0.11);
+  -webkit-box-shadow: 11px 6px 39px 8px rgba(0, 0, 0, 0.11);
+  -moz-box-shadow: 11px 6px 39px 8px rgba(0, 0, 0, 0.11);
+}
+.img-container .titulares {
+  justify-content: center;
+}
+.img-container .titulares:hover {
+  text-decoration: underline;
+}
+@keyframes barrido {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+@media only screen and (min-width: 768px) {
+  header nav {
+    display: block;
+  }
+  header nav ul {
+    list-style-type: none !important;
+    display: flex !important;
+  }
+  header nav ul li {
+    margin: 5px !important;
+  }
+}
+@media only screen and (max-width: 650px) {
+  body {
+    font-size: 12px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
