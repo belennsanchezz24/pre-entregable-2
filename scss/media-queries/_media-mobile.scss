@@ -1,23 +1,24 @@
 @media only screen and (max-width: 650px) {
     header {
-        display: flex !important;
-        margin-left: 10px !important;
         nav {
-            ul {
-                li {
-                    a{
-
-                    }
-                }
-            }
+            display: none;
+        }
+        .nav {
+            display: none;
         }
     }
-}
+   
+
     body {
         font-size: 12px;
+        width: 100%;
         .parrafo-inicio {
           display: flex;
             white-space: nowrap;
+            font-size: 1000 rem;
+            width: 100%;
+            box-sizing: border-box;
+            display: inline-block;
     }
     .carousel {
         position: relative;
@@ -32,11 +33,12 @@
             min-width: 100%;
             box-sizing: border-box;
          
-            img {
-                    width: 100%;
+        .rounded {
                     display: block;
                     align-items: center;
+                    justify-content:center;
                   }
             }
           }
+        }
     }

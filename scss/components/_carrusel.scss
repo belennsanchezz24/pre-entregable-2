@@ -1,5 +1,5 @@
 .carousel {
-    padding: 50px !important;
+    padding: 30px !important;
     margin: 30px !important;
     align-content: center !important;
     justify-content: center !important;
@@ -8,10 +8,19 @@
 background-color: #000000 !important;
 align-content: center !important;
 justify-content: center !important;
-padding: 50px !important;
-
+padding: 30px !important;
+text-align: center;
+.imagenes-carrusel {
+    width: 60%;
+    height: auto;
+    object-fit: cover;
+}
  .tituloscarrusel {
-    background-color: #000000;
+    background-color: red;
+    display: inline-block;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 800PX;
     &:hover {
     text-decoration: underline !important;
     }
