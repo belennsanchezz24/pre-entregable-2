@@ -69,26 +69,61 @@ footer {
   position: absolute;
   width: 100%;
   margin-top: 300px;
+  padding-bottom: 40px;
 }
 footer .logo-footer {
-  width: 30rem;
+  width: 15rem;
+  margin: 2rem;
+  margin-top: 1rem;
+  display: flex;
 }
-footer h2 {
+footer .grupo-1 {
+  width: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+}
+footer .grupo-1 h2 {
   color: #ffffff;
   padding: 20px;
-  text-align: center;
 }
-footer .footerenlaces {
+footer .grupo-1 .footerenlaces {
   color: #ffffff;
 }
-footer .footer-item {
+footer .grupo-1 .footerenlaces .footer-item {
   color: #ffffff;
   left: 10px;
   text-decoration: none;
 }
-footer .footer-item:hover {
+footer .grupo-1 .footerenlaces .footer-item:hover {
   text-decoration: underline;
   margin: 10px;
+}
+footer .grupo-1 h6 {
+  color: #ffffff;
+  padding: 20px;
+  font-size: 2rem;
+  margin-top: 10px;
+}
+footer .grupo-1 .red-social a {
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  background-color: #0d2033;
+  text-align: center;
+}
+footer .grupo-1 .footer-parrafo {
+  margin-left: 10px;
+}
+footer .grupo-1 p {
+  color: white;
+  margin-bottom: 10px;
+  text-align: justify;
 }
 
 h1 {
