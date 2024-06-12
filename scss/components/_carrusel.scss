@@ -20,18 +20,17 @@ text-align: center;
     display: inline-block;
     text-align: center;
     color: #ffffff;
-    font-weight: 800PX;
+    font-weight: 800px;
     &:hover {
     text-decoration: underline !important;
     }
     .carousel-item {
         align-content: center !important;
         h5 {
-            font-weight: 800 !important;
+            font-weight: 800 px !important;
             color: #ffffff !important;
             font-size: 30px;
-            text-shadow: -1px -1px 0 #000 !important;
-            overflow: auto !important;
+            
                 &:hover {
              text-decoration: underline !important;
         }

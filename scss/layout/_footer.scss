@@ -3,20 +3,22 @@ footer {
     position: absolute;
     width: 100%;
     margin-top: 300px;
-    padding-bottom: 40px;
+    padding: 35px;
       .logo-footer {
         width: 15rem;
         margin: 2rem;
         margin-top: 1rem;
         display: flex;
     }
-    .grupo-1 { 
+   
+    .grupo-1 {
         width: 100%;
         margin: auto;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 50px;
         padding: 45px 0px;
+
 
         h2 {
             color: #ffffff;
@@ -31,9 +33,12 @@ footer {
                     &:hover {
                          text-decoration: underline;
                          margin: 10px;
-                        }     
+                        }    
                     }
                 }
+
+
+
 
     h6 {
         color: #ffffff;
@@ -41,22 +46,25 @@ footer {
         font-size: 2rem;
         margin-top: 10px;
     }
-    .red-social {
-        a {
-            
-        display: inline-block;
-        text-decoration: none;
-        width: 45px;
-        height: 45px;
-        line-height: 45px;
-        color: #fff;
-        background-color: #0d2033;
-        text-align: center;
-    }
-}
+   
+    .redes-sociales {
+         a {
+            display: inline-block;
+            text-decoration: none;
+            width: 45px;
+            height: 45px;
+            line-height: 45px;
+            color: #fff;
+            background-color: #0d2033;
+            text-align: center;
+       
+         }
+        }
+   
     .footer-parrafo {
-        margin-left: 10px;
+        margin-right: 10px;
     }
+
 
    
         p {
@@ -66,4 +74,3 @@ footer {
     }
   }
         }
-    

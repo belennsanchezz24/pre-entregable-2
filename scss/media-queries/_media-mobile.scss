@@ -1,5 +1,8 @@
-@media only screen and (max-width: 650px) {
-    header {
+@media only screen and (max-width: 800px) {
+  body {
+    font-size: 12px;
+    width: 100%;
+  header {
         nav {
             display: none;
         }
@@ -8,10 +11,6 @@
         }
     }
    
-
-    body {
-        font-size: 12px;
-        width: 100%;
         .parrafo-inicio {
           display: flex;
             white-space: nowrap;
@@ -20,25 +19,41 @@
             box-sizing: border-box;
             display: inline-block;
     }
-    .carousel {
-        position: relative;
+    .carousel-item {
+      img {
         width: 100%;
-        margin:auto;
-        overflow: hidden;
-        .carousel-inner {
-            display: flex;
-            transition: transform 0.5s ease;
-          }
-          .carousel-item {
-            min-width: 100%;
-            box-sizing: border-box;
-         
-        .rounded {
-                    display: block;
-                    align-items: center;
-                    justify-content:center;
-                  }
+      }
+      .d-md-block {
+        display:block;
+        text-align: center;
+        font-size: 1rem;
+        padding: 10px;
+      }
+      h5 {
+        .tituloscarrusel {
+          display: block;
+          font-size: 1.2rem;
+          margin-top: 10px;
+          padding: 5px;
+          background-color: red;
+          color: white;
+      }
+     
+      }
+    }
+          .pie-de-pagina {
+            .logo-footer {
+              align-items: center;
+              justify-content:center;
+            }
+            .grupo-1 {
+              width: 90%;
+              grid-template-columns: repeat(1,1fr);
+              grid-gap: 30px;
+              padding: 35px 0px;
+            
             }
           }
         }
     }
+  
