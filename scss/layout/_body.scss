@@ -1,10 +1,19 @@
+body {
+
 h1 {
     font-size: 30px;
     color: white;
-    background-color: #4e4e4e;
+    background-color: black;
     text-align: center;
 }
 
+.nota-julietapoggio {
+    margin: 30px;
+    padding: 30px;
+    img {
+        align-items: center;
+    }
+}
 
 .parrafo-inicio {
     color: black;
@@ -58,3 +67,4 @@ h1 {
     transform: translateX(-100%);
     }
     }
+}
