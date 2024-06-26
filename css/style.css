@@ -29,11 +29,14 @@ header nav ul li a:hover {
   justify-content: center !important;
 }
 .carousel .carousel-inner {
-  background-color: #000000 !important;
+  background-color: gray;
   align-content: center !important;
   justify-content: center !important;
   padding: 30px !important;
   text-align: center;
+  box-shadow: 11px 6px 39px 8px rgba(0, 0, 0, 0.11);
+  -webkit-box-shadow: 11px 6px 39px 8px rgba(0, 0, 0, 0.11);
+  -moz-box-shadow: 11px 6px 39px 8px rgba(0, 0, 0, 0.11);
 }
 .carousel .carousel-inner .imagenes-carrusel {
   width: 60%;
@@ -124,6 +127,9 @@ footer .grupo-1 p {
   text-align: justify;
 }
 
+body {
+  margin: auto;
+}
 body h1 {
   font-size: 30px;
   color: white;
@@ -158,11 +164,8 @@ body .nota img {
   margin: 20px;
   width: 900px;
 }
-body .nota img .Julietapoggio1 {
+body .nota img .img1 {
   width: 100px;
-  margin: 10px;
-}
-body .nota img .Julietapoggio2 {
   margin: 10px;
 }
 body .parrafo-inicio {
@@ -197,6 +200,8 @@ body .img-container .gallery-imagen {
 }
 body .img-container .titulares {
   justify-content: center;
+  text-decoration: none;
+  color: black;
   font-weight: bold;
   margin-top: 1rem;
 }
@@ -228,6 +233,15 @@ body .img-container .titulares:hover {
   body {
     font-size: 12px;
     width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  body header {
+    margin: 10px;
+    padding: 20px;
+    width: 100vw;
+    box-sizing: border-box;
   }
   body header nav {
     display: none;
@@ -243,22 +257,56 @@ body .img-container .titulares:hover {
     box-sizing: border-box;
     display: inline-block;
   }
-  body .carousel-item img {
+  body .carousel {
+    margin: 10px;
     width: 100%;
   }
-  body .carousel-item .d-md-block {
-    display: block;
-    text-align: center;
-    font-size: 1rem;
-    padding: 10px;
+  body .carousel .carousel-item {
+    position: relative;
   }
-  body .carousel-item h5 .tituloscarrusel {
-    display: block;
-    font-size: 1.2rem;
+  body .carousel .carousel-item img {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: cover;
+  }
+  body .carousel .carousel-item .carousel-caption {
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+  }
+  body .carousel .carousel-item .tituloscarrusel {
+    text-align: center;
+    font-size: 10px;
+    margin: 0;
+    display: inline-block;
+  }
+  body .carousel .nota {
     margin-top: 10px;
-    padding: 5px;
-    background-color: red;
-    color: white;
+    width: 100vw;
+    padding: auto;
+  }
+  body .carousel .nota h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  body .carousel .nota h4 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  body .carousel .nota p {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  body .carousel .nota img .img1 {
+    max-width: 100%;
+    align-items: center;
+  }
+  body .pie-de-pagina {
+    width: 100%;
   }
   body .pie-de-pagina .logo-footer {
     align-items: center;
